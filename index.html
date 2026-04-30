@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vytheria | Serveur Minecraft PvP Faction</title>
+  <meta name="description" content="Vytheria est un serveur Minecraft PvP Faction moderne en Paper 1.21.1 avec guerres, alliances, boss custom, items custom, mobs custom et minerais custom." />
+
+  <link rel="icon" href="assets/vytheria-logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#accueil" class="brand">
+      <img src="assets/vytheria-logo.png" alt="Logo Vytheria">
+      <span>Vytheria</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#accueil">Accueil</a>
+      <a href="#serveur">Serveur</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#compte">Compte</a>
+      <a href="#candidature">Candidature</a>
+      <a class="nav-cta" href="#rejoindre">Rejoindre</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-bg"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Paper 1.21.1 • PvP Faction Moderne</p>
+
+          <img class="hero-logo" src="assets/vytheria-logo.png" alt="Vytheria">
+
+          <h1>Domine les factions sur <span>Vytheria</span>.</h1>
+
+          <p class="hero-text">
+            Un serveur Minecraft PvP Faction moderne avec guerres, alliances,
+            mobs custom, modèles 3D, items personnalisés, minerais custom et boss uniques.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn primary" data-copy="play.vytheria.fr">Copier l’IP</button>
+            <a class="btn secondary" href="#candidature">Postuler staff</a>
+          </div>
+
+          <div id="rejoindre" class="ip-box">
+            <span>IP du serveur</span>
+            <strong>play.vytheria.fr</strong>
+          </div>
+        </div>
+
+        <aside class="server-panel">
+          <div class="status">
+            <span></span>
+            Serveur en développement
+          </div>
+
+          <h2>Vytheria</h2>
+          <p>
+            Crée ta faction, prépare tes alliances, contrôle les ressources
+            et impose ton nom dans les guerres.
+          </p>
+
+          <div class="panel-stats">
+            <div><strong>1.21.1</strong><span>Version</span></div>
+            <div><strong>Paper</strong><span>Core</span></div>
+            <div><strong>Custom</strong><span>Contenu</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="serveur" class="section">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Gameplay</p>
+          <h2>Un PvP Faction moderne et propre.</h2>
+          <p>
+            Vytheria garde l’esprit faction, mais ajoute du contenu custom pour rendre
+            la progression plus stylée, plus stratégique et plus intéressante.
+          </p>
+        </div>
+
+        <div class="features">
+          <article class="card">
+            <div class="card-icon">⚔</div>
+            <h3>Guerres & alliances</h3>
+            <p>Déclare des guerres, crée des alliances et organise ta faction pour dominer le serveur.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">☠</div>
+            <h3>Boss custom</h3>
+            <p>Affronte des boss spéciaux, récupère des récompenses rares et améliore ton équipement.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">◆</div>
+            <h3>Minerais custom</h3>
+            <p>Mine des ressources personnalisées pour débloquer du stuff, de l’économie et des crafts utiles.</p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">⬢</div>
+            <h3>Items & modèles 3D</h3>
+            <p>Découvre des items uniques, des textures propres et des modèles 3D intégrés au gameplay.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="boutique" class="section shop">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">Boutique</p>
+          <h2>Grades Vytheria</h2>
+          <p>
+            Choisis un grade et envoie une demande automatiquement à l’équipe.
+          </p>
+        </div>
+
+        <div class="prices">
+          <article class="price-card">
+            <h3>Premium</h3>
+            <strong>8,99€</strong>
+            <ul>
+              <li>Préfixe Premium</li>
+              <li>Cosmétiques exclusifs</li>
+              <li>Bonus confort</li>
+              <li>Accès à des avantages boutique</li>
+            </ul>
+            <form action="https://formsubmit.co/vytheriamc@hotmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Demande achat grade Premium - Vytheria">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="Grade demandé" value="Premium - 8,99€">
+              <input class="shop-input" name="Pseudo Minecraft" placeholder="Ton pseudo Minecraft" required>
+              <input class="shop-input" name="Discord" placeholder="Ton Discord" required>
+              <button class="btn secondary full" type="submit">Demander</button>
+            </form>
+          </article>
+
+          <article class="price-card featured">
+            <div class="badge">Populaire</div>
+            <h3>Premium+</h3>
+            <strong>12,99€</strong>
+            <ul>
+              <li>Avantages Premium</li>
+              <li>Cosmétiques supplémentaires</li>
+              <li>Bonus confort avancés</li>
+              <li>Style plus visible en jeu</li>
+            </ul>
+            <form action="https://formsubmit.co/vytheriamc@hotmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Demande achat grade Premium+ - Vytheria">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="Grade demandé" value="Premium+ - 12,99€">
+              <input class="shop-input" name="Pseudo Minecraft" placeholder="Ton pseudo Minecraft" required>
+              <input class="shop-input" name="Discord" placeholder="Ton Discord" required>
+              <button class="btn primary full" type="submit">Demander</button>
+            </form>
+          </article>
+
+          <article class="price-card">
+            <h3>Ultra</h3>
+            <strong>15,99€</strong>
+            <ul>
+              <li>Avantages Premium+</li>
+              <li>Préfixe Ultra</li>
+              <li>Cosmétiques rares</li>
+              <li>Bonus boutique avancés</li>
+            </ul>
+            <form action="https://formsubmit.co/vytheriamc@hotmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Demande achat grade Ultra - Vytheria">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="Grade demandé" value="Ultra - 15,99€">
+              <input class="shop-input" name="Pseudo Minecraft" placeholder="Ton pseudo Minecraft" required>
+              <input class="shop-input" name="Discord" placeholder="Ton Discord" required>
+              <button class="btn secondary full" type="submit">Demander</button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="compte" class="section">
+      <div class="container account-grid">
+        <div>
+          <p class="eyebrow">Compte Vytheria</p>
+          <h2>Espace joueur</h2>
+          <p class="muted">
+            Connexion Google, liaison Microsoft et liaison Minecraft sont prévues pour une future version avec backend sécurisé.
+          </p>
+        </div>
+
+        <div class="account-card">
+          <h3>Connexion bientôt disponible</h3>
+          <p>
+            Pour faire un vrai système de compte sécurisé, il faut OAuth Google/Microsoft,
+            une base de données, des sessions sécurisées et un serveur backend.
+            Sur OVH FTP classique, on évite de faire un faux login non sécurisé.
+          </p>
+
+          <div class="fake-login">
+            <button disabled>Continuer avec Google</button>
+            <button disabled>Relier Microsoft</button>
+            <button disabled>Relier Minecraft</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="candidature" class="section">
+      <div class="container app-grid">
+        <div>
+          <p class="eyebrow">Recrutement</p>
+          <h2>Candidature staff</h2>
+          <p class="muted">
+            Remplis le formulaire sérieusement. Il sera envoyé via FormSubmit directement à l’équipe Vytheria.
+          </p>
+
+          <div class="mini-info">
+            <strong>Email de réception</strong>
+            <span>vytheriamc@hotmail.com</span>
+          </div>
+
+          <div class="mini-info">
+            <strong>Important</strong>
+            <span>Au premier envoi, FormSubmit peut demander une confirmation par email pour activer l’adresse.</span>
+          </div>
+        </div>
+
+        <form class="form-card" action="https://formsubmit.co/vytheriamc@hotmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Nouvelle candidature staff - Vytheria">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-row">
+            <label>
+              Pseudo Minecraft *
+              <input name="Pseudo Minecraft" type="text" placeholder="Ex: Xorolll" required minlength="3" maxlength="32">
+            </label>
+
+            <label>
+              Pseudo Discord *
+              <input name="Pseudo Discord" type="text" placeholder="Ex: @pseudo" required minlength="2" maxlength="50">
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label>
+              Âge *
+              <input name="Âge" type="number" placeholder="Ex: 16" required min="10" max="99">
+            </label>
+
+            <label>
+              Poste souhaité *
+              <select name="Poste souhaité" required>
+                <option value="">Choisir un poste</option>
+                <option>Helper</option>
+                <option>Modérateur</option>
+                <option>Administrateur</option>
+                <option>Builder</option>
+                <option>Développeur</option>
+                <option>Community Manager</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Disponibilités *
+            <input name="Disponibilités" type="text" placeholder="Ex: lundi-vendredi soir + week-end" required minlength="8" maxlength="500">
+          </label>
+
+          <label>
+            Expérience staff / modération *
+            <textarea name="Expérience staff / modération" rows="5" placeholder="Explique tes anciennes expériences, les serveurs, les rôles, les responsabilités..." required minlength="40" maxlength="4000"></textarea>
+          </label>
+
+          <label>
+            Motivation *
+            <textarea name="Motivation" rows="6" placeholder="Pourquoi veux-tu rejoindre le staff ? Qu’est-ce que tu peux apporter à Vytheria ?" required minlength="60" maxlength="4000"></textarea>
+          </label>
+
+          <label>
+            Situation de modération
+            <textarea name="Situation de modération" rows="5" placeholder="Exemple : un joueur insulte, un conflit de faction éclate, un joueur est suspecté de cheat. Comment tu réagis ?" maxlength="3000"></textarea>
+          </label>
+
+          <label class="checkbox">
+            <input name="Confirmation sérieuse" type="checkbox" value="Oui" required>
+            <span>Je confirme que ma candidature est sérieuse et que les informations sont correctes.</span>
+          </label>
+
+          <button class="btn primary full" type="submit">Envoyer la candidature</button>
+          <p class="form-message">
+            Envoi automatique via FormSubmit. Aucun JSON, donc plus d’erreur “Unexpected token”.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Vytheria. Tous droits réservés.</p>
+      <a href="mailto:vytheriamc@hotmail.com">Contact</a>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
